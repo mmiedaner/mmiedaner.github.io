@@ -19,9 +19,11 @@ description:
 footer-links:
   dribbble: 
   email: markusmiedaner@gmail.com 
+  emailKey: linkToEmailKey
+  signingKey: linkToSigningKey
   facebook: 
   flickr: 
-  github: 
+  github: mmiedaner 
   instagram: 
   linkedin: 
   pinterest: 
@@ -33,7 +35,7 @@ footer-links:
 disqus: 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# google_analytics: 
+google_analytics: UA-61528727-1 
 
 # website URL
 # Used for Sitemap.xml and your RSS feed
