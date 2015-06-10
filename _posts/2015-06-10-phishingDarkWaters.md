@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Christopher Hadnagy, Michelle Finscher - Phishing Dark Waters - The Offensive and Defensive Sides of Malicious E-mails 
+title: Christopher Hadnagy, Michelle Fincher - Phishing Dark Waters - The Offensive and Defensive Sides of Malicious E-mails 
 category: bookreview
 ---
 
