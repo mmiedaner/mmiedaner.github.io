@@ -68,4 +68,4 @@ included in separate sub chapters.
 All in all this book is very good starting point for 
 every security professional who is in charge of setting 
 up an awareness program for his or her company and stumbles 
-upon the topic of phishing.
+upon the topic of phishing. You can buy the book from Amazon [here](http://www.amazon.de/Phishing-Dark-Waters-Offensive-Defensive-ebook/dp/B00UYXIH3A/ref=sr_1_1?ie=UTF8&qid=1434187491&sr=8-1&keywords=phishing+dark+waters).
