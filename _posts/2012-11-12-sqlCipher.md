@@ -99,7 +99,7 @@ Here's the shell (bash) script I used:
 So plain, straight and simple. But what are the results?
 
 A 4 digit numeric PIN takes 6.8 min.
-A 8 digiti numeric PIN takes 73 days.
+A 8 digit numeric PIN takes 73 days.
 
 Thats not too bad for small pc (2 GHz, 2GB Ram). 
 But what about using a painful alphanumeric password:
