@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="posts">
+	{% for post in site.posts %}
+		{% if post.category == 'presso' %}
+			<article class="post">
+				<div class="entry">
+				<h1> {{ post.title }} </h1>
+				<table>
+					<tr>
+						<td style="width: 30%;vertical-align: bottom;">
+							<a href="{{ site.baseurl}}/_pressos/{{ post.filename }}">
+								<img src="{{ site.baseurl}}/_pressos/{{ post.thumbnail }}"/>
+							</a>
+						</td>
+						<td style="width: 4%;">
+						</td>
+						<td style="width: 65%; vertical-align: top;height: 100%;">
+							{{ post.content }}
+						</td>
+					</tr>
+				</table>
+				</div>
+			</article>
+		{% endif %}
+	{% endfor %}
+</div>

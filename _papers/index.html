@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="posts" style="width: 100%;">
+	{% for post in site.posts %}
+		{% if post.category == 'paper' %}
+			<article class="post">
+				<div class="entry">
+					<h1> {{ post.title }} </h1>
+					<table>
+						<tr>
+							<td style="width: 30%; vertical-align: bottom;">
+								{% assign file = post.filename | strip_newlines %}
+								{% if file == "" %}
+									<a href="{{ post.link }}" >
+								{% else %}
+									<a href="{{ site.baseurl }}/_papers/{{ post.filename }}">
+								{% endif %}
+										<img src="{{ site.baseurl }}/_papers/{{ post.thumbnail }}"/>
+									</a>
+							</td>
+							<td style="width 4%;">
+							</td>
+							<td style="width: 65%; vertical-align: top; height: 100%;">
+								{{ post.content }}
+							</td>
+						</tr>
+					</table>
+				</div>
+			</article>
+		{% endif %}
+	{% endfor %}
+</div>
+
