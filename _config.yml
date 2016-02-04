@@ -6,8 +6,9 @@
 name: Thinking Beyond Security
 
 # Short bio or description (displayed in the header)
-# description: 
+description: Security, Agile, Development, Pentesting, Architecture
 
+author: Markus Miedaner
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # avatar: 
 
@@ -39,7 +40,7 @@ google_analytics: UA-61528727-1
 
 # website URL
 # Used for Sitemap.xml and your RSS feed
-url: 
+url: https://mmiedaner.github.io 
 
 # If you're hosting your site at a Project repository on GitHub pages 
 # (http://yourusername.github.io/repository-name)
