@@ -6,7 +6,7 @@
 name: Thinking Beyond Security
 
 # Short bio or description (displayed in the header)
-description: Security, Agile, Development, Pentesting, Architecture
+description: Thinking beyond security, Offensive Security, Application Security, Agile, Development, Pentesting, Architecture, SDLC, Vulnerability Asessment
 
 author: Markus Miedaner
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
@@ -26,7 +26,7 @@ footer-links:
   flickr: 
   github: mmiedaner 
   instagram: 
-  linkedin: 
+  linkedin: markus-maria-miedaner-27114911 
   pinterest: 
   rss: my rss feed 
   twitter: markusmiedaner
@@ -51,8 +51,7 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /:title/
 
