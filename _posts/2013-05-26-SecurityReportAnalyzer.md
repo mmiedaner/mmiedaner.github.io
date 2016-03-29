@@ -94,6 +94,6 @@ compatible with higher Jira versions.
 
 Now it's time for you to see for your self, 
 if the plugin satisfies your needs. Go grab it from
-[here](https://github.com/mmiedaner/security/tree/master/security-report-analyzer)
+[here](https://github.com/mmiedaner/security/tree/master/security-report-analyzer).
 
 Cheers!

@@ -20,7 +20,7 @@ be left to the QA and mostly postponed until some
 unknown day after the official "go live". 
 
 
-#Why should I care?
+# Why should I care?
 Considering security implications already while 
 defining the requirements saves you time during 
 the development and testing phase - no matter if 
@@ -44,10 +44,10 @@ rebuild their reputation and money they lost due
 to bad press.
 
 
-#What can I do?
+# What can I do?
 
 
-##Requirements and Threat Modeling
+## Requirements and Threat Modeling
 Different methods exist to estimate the risk a 
 certain feature or requirement will add to the 
 overall exposure of your product. Of course we 
@@ -62,7 +62,7 @@ a metric to measure the exposure. This will not only
 help you when talking to the security guys.
 
 
-##The Development Team
+## The Development Team
 There are many ways to the improve security within 
 an development life cycle. However not every one 
 yields the appropriate results. Making your developers 

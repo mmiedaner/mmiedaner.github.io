@@ -10,7 +10,7 @@ Besides a few ideas were pointed out how to start
 with the team - the most important asset you have 
 in your company.
 
-##Integration of security experts into the development team
+## Integration of security experts into the development team
 "Hang on - we are security experts - we do not 
 write code." Honestly, I am curious if this statement 
 is good. Surely, a security expert won't be a battle 
@@ -32,7 +32,7 @@ Think about a hardening time or sprint if you are
 doing agile development.
 Now let's get deeper into the tooling.
 
-##Tooling
+## Tooling
 Code analysis is an old topic and various tools 
 exist to do this job. However, why not integrating 
 them into the nightly builds of your product? Why 
@@ -70,7 +70,7 @@ be performed on the repository server it self and not
 on the developers computer. So you may pimp your 
 repository server in advance to keep your developers happy.
 
-##And after that?
+## And after that?
 Yep, secure development is not only about tooling 
 and education. Periodic penetration tests can not be 
 avoided. The amount of findings from these tests 
@@ -78,7 +78,7 @@ however can be greatly reduced to your favor by
 ensuring that security related bugs do not enter 
 your testing or production environment.
 
-##Release management and hot patching?
+## Release management and hot patching?
 These two topics are often neglected when we talk 
 about a Secure Development Life Cycle. However, 
 just building the software as secure as possible 

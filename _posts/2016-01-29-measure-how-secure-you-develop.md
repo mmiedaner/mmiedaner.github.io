@@ -23,11 +23,11 @@ OWASP provides you with the  [OpenSAM] (http://www.opensamm.org/)
 software. They offer a [Cheat-Sheet](https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet) on how to set up a SDLC as well. My only remark on 
 their approach is that I would like to add two more steps: 
 
-######Step 7 - “Measure" 
+###### Step 7 - “Measure" 
 
 and 
 
-######Step 8 - “Improve” 
+###### Step 8 - “Improve” 
 
 Clearly this is my personal opinion - take it as such. 
 
@@ -44,7 +44,7 @@ gets created and matures over time. Within the next sections I will
 discuss a few metrics that turned out to be useful for my place of work:
 
 
-###Maturity metrics:
+### Maturity metrics:
 
 * An interesting metric is the ratio of the Scrum velocity (a measure of  
 the tackled complexity) to the amount of findings per sprint.
@@ -59,7 +59,7 @@ requirements and contrast this with  total amount and the amount
 of remaining security requirements.
 
 
-###Code creation metrics:
+### Code creation metrics:
 
 * The amount of security defects per application is an interesting metric 
 - especially once you group your application based on the risk the pose 

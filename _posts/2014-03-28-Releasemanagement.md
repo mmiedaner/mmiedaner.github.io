@@ -12,7 +12,7 @@ agile world as a product owner?
 What options for releasing software do we have?
 
 
-##1. Agile
+## 1. Agile
 You release minor increments on a frequent basis. 
 Based on this you are able to fix security issues 
 very quickly assuming that you know of them. But 
@@ -37,7 +37,7 @@ In such a case you must rely on automated
 security testing and strong secure 
 development life cycle.
 
-##2. Rolling releases
+## 2. Rolling releases
 Rolling releases are established for example by 
 various Linux distributions. In such a model every 
 package of your Linux distribution follows it's on 
@@ -54,7 +54,7 @@ lot of work. It is also more complex, because you
 have several systems interacting with each other 
 and facing their own security problems.
 
-##3. Major and minor releases
+## 3. Major and minor releases
 Major and minor releases are normally rolled 
 out on a very fixed schedule. After releasing 
 one version your able to fix vulnerabilities as 
