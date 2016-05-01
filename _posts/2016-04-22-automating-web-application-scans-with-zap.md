@@ -58,7 +58,9 @@ provided and spiders it. Depending on your configuration it performs an
 active vulnerability scan afterward and finally creates a report. At
 this point you are free to move the report to a place where your 
 developers can access it to improve their code - or simply mail to
-them via the unix command line.
+them via the unix command line. Do not forget to stop ZAP:
+
+	java -jar zap-api-2.4-v7.jar stop zapaddr=127.0.0.1 zapport=8080
 
 Ok, so far so good. Now I would like to discuss the various options of
 the configuration file.
