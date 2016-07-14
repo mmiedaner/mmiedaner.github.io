@@ -4,7 +4,7 @@ title: Charlie Miller - The iOS Hackers Handbook
 category: bookreview
 ---
 
-Charlie Millers Book ["The iOS Hackers Handbook"](http://www.amazon.de/iOS-Hackers-Handbook-Charles-Miller/dp/1118204123/ref=sr_1_1?ie=UTF8&qid=1428952099&sr=8-1&keywords=iOS+hackers+handbook) 
+Charlie Millers Book ["The iOS Hackers Handbook"](http://www.amazon.com/iOS-Hackers-Handbook-Charles-Miller/dp/1118204123/ref=sr_1_1?ie=UTF8&qid=1428952099&sr=8-1&keywords=iOS+hackers+handbook) 
 contains what you expect it to.
 It is a very rigorous guide on how to look for security flaws and vulnerabilities
 within the iOS 1.4 at time I was reading it.
@@ -50,3 +50,4 @@ deleted files by recreating the file index table from the binary data on the dis
 Just curious if this would be possible on an iOS as well.
 
 
+<iframe type="text/html" width="100%" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://lesen.amazon.de/kp/card?asin=B00888KNL2&asin=B00888KNL2&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_a--GxbXWEAEW9" ></iframe>

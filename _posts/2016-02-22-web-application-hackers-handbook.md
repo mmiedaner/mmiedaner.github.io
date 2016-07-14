@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web Application Hackers Handbook"
+title: "Dafydd Stuttard, Marcus Pinto - Web Application Hackers Handbook"
 date: "2016-02-22 20:29:19 +0100"
 category: bookreview 
 link:
@@ -8,7 +8,7 @@ filename:
 thumbnail:
 ---
 The web applications hackers handbook has been written by Dafydd Stuttard and Marcus Pinto.
-You can get it [here](http://www.amazon.de/The-Web-Application-Hackers-Handbook/dp/1118026470/ref=dp_ob_title_bk). 
+You can get it [here](http://www.amazon.com/The-Web-Application-Hackers-Handbook/dp/1118026470/ref=dp_ob_title_bk). 
 Interestingly enough it has been published in two editions. First in 2007 and then again in 2011. 
 However both editions do not differ much. Which brings up a very interesting point. The web 
 landscape has changed dramatically within these years and even further thereafter. However 
@@ -41,3 +41,6 @@ therein is condensed, well illustrated and easily ported to fields other than we
 Take this good read and enjoy breaking out of your environment!
 
 Cheers :)
+
+
+<iframe type="text/html" width="100%" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://lesen.amazon.de/kp/card?asin=B005LVQA9S&asin=B005LVQA9S&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_ke.GxbMQWNE6E" ></iframe>

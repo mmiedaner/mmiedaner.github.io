@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gray Hat Hackers Handbook"
+title: "Shon Harris - Gray Hat Hackers Handbook"
 date: "2016-03-09 17:24:43 +0100"
 category: bookreview
 link:
@@ -13,7 +13,7 @@ with it. It covers a lot of material: starting from USB stick
 based attacks to malware and programming. However there are many
 chapters within this [book](http://www.amazon.com/Hacking-Ethical-Hackers-Handbook-Edition/dp/0071742557/ref=cm_cr_arp_d_product_top?ie=UTF8)
 that simply show you how install or use some tools. That is not what
-I would expect from some one who wants to become or allready is a gray
+I would expect from some one who wants to become or already is a gray
 hat. If you can not read the manual and think way beyond it you are doing
 some thing wrong.
 
@@ -36,3 +36,6 @@ So, to get it to a point: Nice read, but focussing to much on tools. Read
 a few blogs and skip this book.
 
 Cheers!
+
+
+<iframe type="text/html" width="100%" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://lesen.amazon.de/kp/card?asin=B004ISL4JG&asin=B004ISL4JG&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_83-Gxb4XBMGKW" ></iframe>

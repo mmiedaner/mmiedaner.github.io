@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beautiful Security"
+title: "Joe Viega, Andy Oram, Anton Chuvakin - Beautiful Security"
 date: "2016-03-25 12:38:31 +0100"
 category: bookreview 
 link:
@@ -10,12 +10,12 @@ thumbnail:
 Beautiful Security is a very interesting book. It is way more than just
 a collection of essays about information security. Besides the success story
 of OWASP - the [Open Web Application Security Project](https://www.owasp.org) - it tells various other stories which significantly influenced the 
-evolution of what we call today "Information Security". [Beautiful Security](http://www.amazon.de/Beautiful-Security-Leading-Experts-Explain/dp/0596527489/ref=sr_1_1?ie=UTF8&qid=1458905891&sr=8-1&keywords=beautiful+security) aims to nudge the
+evolution of what we call today "Information Security". [Beautiful Security](http://www.amazon.com/Beautiful-Security-Leading-Experts-Explain/dp/0596527489/ref=sr_1_1?ie=UTF8&qid=1458905891&sr=8-1&keywords=beautiful+security) aims to nudge the
 reader into creative thinking. Therefore it provides ideas like a fully 
 encrypted database - which clearly helps you, when a hacker steals your
 data. Since absolutely everything in such a database is encrypted the
 heist is completely useless unless you manage do get your hand on the
-encryption key and decipher the stolen data. I allready mentioned this 
+encryption key and decipher the stolen data. I already mentioned this 
 approach in an other [post](/increasing-security-by-preparing-for-failure/).
 
 
@@ -24,7 +24,7 @@ aka pretty good privacy. I must admit, that I have been using this
 software for years, but never cared about its past. The author explains 
 in great detail the differences between a web of trust and strictly 
 hierarchical structure like in a certification authorities as well as the
-ups and downs of pgp popularity.
+ups and downs of PGP popularity.
 
 
 In an other chapter the problems with ad-networks are discussed in great
@@ -62,3 +62,9 @@ actually doing at work - this book provides the reader with answers and
 ideas. However, time has changed and so have the main topics in 
 IT-Security. I am curious to see a new edition of this book with 
 slightly different topics, like application aware SIEMs and so on. 
+
+Cheers!
+
+<iframe type="text/html" width="100%" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://lesen.amazon.de/kp/card?asin=B002NOGG54&asin=B002NOGG54&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_rg.GxbH84H27R" ></iframe>
+
+

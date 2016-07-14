@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Konflikt Management Für Sicherheitsprofis"
+title: "Sebastian Klipper - Konflikt Management Für Sicherheitsprofis"
 date: "2016-01-20 18:34:48 +0100"
 category: bookreview
 link:
