@@ -5,7 +5,7 @@ date: "2014-05-08 11:02:43 +0100"
 category: paper
 thumbnail: thumbnail_MobileUnsicherheiten.png
 filename: 
-link: http://www.sigs-datacom.de/uploads/tx_mwjournals/pdf/miedaner_JS_03_14_lmUu.pdf
+link: https://www.sigs-datacom.de/fachzeitschriften/javaspektrum/archiv/artikelansicht/artikel-titel/mobile-un-sicherheit.html 
 ---
 Smartphones, Tablets und mobile Anwendungen nehmen immer mehr
 Raum in unserem Alltag und unserer Arbeitswelt ein. Sicherheitsprüfungen
