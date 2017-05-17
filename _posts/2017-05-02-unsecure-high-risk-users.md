@@ -20,9 +20,9 @@ people who are suffering from governmental prosecution.
 As pointed out those guys were heavily target by phishing. A topic I have
 been writing about a bit [[1](https://mmiedaner.github.io/phishing-explained/),[2](https://mmiedaner.github.io/feeding-the-phish-part-1),[3](https://mmiedaner.github.io/feed-the-phish-part-2/),[4](https://mmiedaner.github.io/feeding-the-phish-part-iii/)]. As pointed out by Scott-Railton the 
 social engineering part of most attacks is sophisticated compared to the
-technical attacks. In his paper he shows various analysis of maleware
+technical attacks. In his paper he shows various analysis of malware
 families used with the phishing E-Mails. It is astonishing to see, that
-no fancy trojan or zero days have been used. Most maleware families have
+no fancy trojan or zero days have been used. Most malware families have
 been used over four to five years. This leads to the conclusion
 that the technical expertise of the victims seems to be low and that
 updating the system / patching is not done well. 
@@ -32,7 +32,7 @@ This lack in technical skills seems to be covered partly by behavioural
 measures. This means that instead of increasing the security of their
 day to day use computers activists shifted to use file sharing services
 like Google Docs instead of sending documents via E-Mail. This somehow
-protects against phishing scams and maleware - but it also puts the users
+protects against phishing scams and malware - but it also puts the users
 at risk, as Google still records a lot of data about them.
 
 
