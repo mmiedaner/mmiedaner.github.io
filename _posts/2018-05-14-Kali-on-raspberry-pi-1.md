@@ -29,14 +29,14 @@ it.
 
 2. Copy it on the SD-Card
 This can be done multiple ways. I prefer the commandline:
-```
+```bash
 dd if=<path to your image file> of=<path to your sd mount point> bs=512k
 ```
 And of you go.
 
 # Second Task: Regenerate the server key #
 Since the server key of KALI's PI builds is widely known you need to regenerate it with these commands:
-```
+```bash
 rm /etc/ssh/ssh_host_*
 dpkg-reconfigure openssh-server
 service ssh restart
