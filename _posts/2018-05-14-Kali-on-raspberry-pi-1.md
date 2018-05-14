@@ -38,7 +38,9 @@ And of you go.
 Since the server key of KALI's PI builds is widely known you need to regenerate it with these commands:
 
   rm /etc/ssh/ssh_host_*
+  
   dpkg-reconfigure openssh-server
+  
   service ssh restart
   
 Now you can add aditional users and disable SSH login for root. And that's it for today
