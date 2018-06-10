@@ -57,8 +57,9 @@ attack page may include your page twice (or even more). In such case the
 attack page could bypass the origin validation by:
 
 
-		var attackWindow = $('#victimFrame2').get(0).contentWindow;
-		attackWindow.postMessage('evil message', 'victim url');
+`var attackWindow = $('#victimFrame2').get(0).contentWindow;`
+
+`attackWindow.postMessage('evil message', 'victim url');`
 
 
 Anyhow - having explained the problem. To demonstrate such a situation to

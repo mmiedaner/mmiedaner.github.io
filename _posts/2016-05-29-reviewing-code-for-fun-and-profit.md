@@ -79,16 +79,27 @@ double check all code that is close to such comments.
 
 To summarize all of the above - there's a ten step guide to code review:
 
-	 1. Check filtering and validation of all user input
-	 2. Check how user input is handled on the "service layer"
-	 3. Check how data is stored 
-	 4. Check how data is returned to the user or any other interface
-	 5. Check how sensitive data is handled
-	 6. Check how errors are caught and handled
-	 7. Check how authorization is enforced
-	 8. Check how authentication is performed
-	 9. Check all logging statements
-	10. Check for comments like:  TODO or FIXME
+
+`1. Check filtering and validation of all user input`
+
+`2. Check how user input is handled on the "service layer"`
+
+`3. Check how data is stored`
+
+`4. Check how data is returned to the user or any other interface`
+
+`5. Check how sensitive data is handled`
+
+`6. Check how errors are caught and handled`
+
+`7. Check how authorization is enforced`
+
+`8. Check how authentication is performed`
+
+`9. Check all logging statements`
+
+`10. Check for comments like:  TODO or FIXME`
+
  
 I am curious to hear your thoughts on this topic. Cheers!
 

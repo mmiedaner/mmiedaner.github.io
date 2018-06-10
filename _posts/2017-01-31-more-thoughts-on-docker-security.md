@@ -15,9 +15,7 @@ implies that you should run a hardened kernel. For example you
 should have the 
 
 
-```
-CONFIG_SECURITY_SELINUX
-```
+`CONFIG_SECURITY_SELINUX`
 
 
 enabled and SELinux should be in enforced mode. Here you will find
@@ -29,9 +27,7 @@ Once you created the file you can start your containers like this
 to enforce the usage of the profile:
 
 
-```shell
-$ docker run --rm -it --security-opt seccomp=/path/to/seccomp/profile.json hello-world
-```
+`$ docker run --rm -it --security-opt seccomp=/path/to/seccomp/profile.json hello-world`
 
 The profile is basically a list of system calls that should be available
 inside your container. With the help of the _strace_ command you can 
@@ -39,7 +35,7 @@ create the profile file. While you will find more information about
 the seccomp profiles [here](https://docs.docker.com/engine/security/seccomp/), keep in mind that they are based on the following structure:
 
 
-```json
+`
 {
 "defaultAction": "SCMP_ACT_ERRNO",
 	"archMap": [
@@ -75,8 +71,7 @@ the seccomp profiles [here](https://docs.docker.com/engine/security/seccomp/), k
 			"excludes": {}
 		}, . . . 
         ]
- }
-```
+ }`
 
 And since we are already in the depth and trenches of Linux security Docker
 also provides you the classical application capabilities as on a regular

@@ -31,7 +31,7 @@ also protects your visitors against SSL-Man-In-The-Middle attacks.
 It should look as follows:
 
 
-	 Strict-Transport-Security: max-age=31536000; includeSubDomains
+`Strict-Transport-Security: max-age=31536000; includeSubDomains`
 
 
 It has been specified within [RFC 6797](https://tools.ietf.org/html/rfc6797). 
@@ -50,7 +50,7 @@ should be embeddable within an iFrame. So it offers a protection against
 clickjacking as well. In this case it should look like this:
 
 
-	Content-Security-Policy: frame-ancestors 'none'
+`Content-Security-Policy: frame-ancestors 'none'`
 
 
 Besides frame-ancestors you should as well take a look at these options:
@@ -82,11 +82,15 @@ b) still valid independent of its expiry date and the certificate authority
 An example for this header looks as follows:
 
 
-	Public-Key-Pins:
-       	pin-sha256="d6qzRu9zOECb90Uez27xWltNsj0e1Md7GkYYkVoZWmM=";
-       	pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g=";
-       	pin-sha256="LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=";
-       	max-age=10000; includeSubDomains; report-uri="my-domain.com"
+`Public-Key-Pins:`
+
+`pin-sha256="d6qzRu9zOECb90Uez27xWltNsj0e1Md7GkYYkVoZWmM=";`
+
+`pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g=";`
+
+`pin-sha256="LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=";`
+
+`max-age=10000; includeSubDomains; report-uri="my-domain.com"`
 
 
 Like the content-security-policy header you can specify a report-uri to 
@@ -108,7 +112,7 @@ embedded into an iFrame and thereby stops clickjacking attacks. The default
 setting for this is:
 
 
-	X-Frame-Options: SAMEORIGIN 
+`X-Frame-Options: SAMEORIGIN` 
 
 
 Clearly, x-frame-options are not the only header to avoid clickjacking and
@@ -123,7 +127,7 @@ Modern browsers do bring their own xss-protection. Clearly, it is far from perfe
 still better than nothing. So, I recommend you set this header as well:
 
 
-	X-XSS-Protection: 1; mode=block
+`X-XSS-Protection: 1; mode=block`
 
 
 For more information on anti-xss mechanisms see the OWASP [cheat-sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet).
@@ -138,7 +142,7 @@ Anyhow please do always set these two headers correctly. For the X-Content-Type-
 you should use:
 
 
-	X-Content-Type-Options: nosniff
+`X-Content-Type-Options: nosniff`
 
 
 This will stop any browser from trying to guess the content-type of a response. Thereby

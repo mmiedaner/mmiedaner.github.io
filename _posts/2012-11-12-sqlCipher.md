@@ -54,7 +54,7 @@ command list that will be execute step by step
 when opening a database file. The command:
 
 
-sqlite3 -init initDBwith4DigitPin crypotest.db
+`sqlite3 -init initDBwith4DigitPin crypotest.db`
 
 
 will result in a sqlite3 database encrypted 
@@ -62,38 +62,44 @@ by a four digit pin. The file initDBwith4DigitPin
 included the following:
 
 
-	PRAGMA KEY=1234;
-	create table t1(a,b);
-	insert into t1(a,b) values ('test','TEST'); 
+`PRAGMA KEY=1234;`
+
+`create table t1(a,b);`
+
+`insert into t1(a,b) values ('test','TEST');` 
 
 So you will have an encrypted database with 
 one table named "t1" of two columns which 
 contains "test" and "TEST". How do we break it? 
 Here's the shell (bash) script I used:
 
-	max=10000; #FourDigitPin
-	DATUM=$(date +%s);
-	counter=0;
+`max=10000; #FourDigitPin`
 
-	echo $DATUM $counter >> logfile.txt
+`DATUM=$(date +%s);`
+
+`counter=0;`
+
+`echo $DATUM $counter >> logfile.txt`
 	
-	while [ ${counter} -le $max ]; do
+`while [ ${counter} -le $max ]; do`
    		
-		counter=$(($counter + 1));
+`      counter=$(($counter + 1));`
 	   		
-		DATUM=$(date +%s);
+`      DATUM=$(date +%s);`
    		
-		echo "PRAGMA KEY="$counter";" > init.txt
-   		# echo $DATUM $counter >> logfile.txt;
+`      echo "PRAGMA KEY="$counter";" > init.txt`
 
-   		if `./sqlite3 -init init.txt test.db "select * from t1;" | 
-		grep "test" 1>/dev/null 2>&1`
+`      if ./sqlite3 -init init.txt test.db "select * from t1;" | grep "test" 1>/dev/null 2>&1`
 
-   		then
-        		echo $DATUM $counter >> logfile.txt
-        		break;
-   		fi
-	done
+`      then`
+
+`            echo $DATUM $counter >> logfile.txt`
+
+`            break;`
+
+`      fi`
+
+`done`
 
 
 So plain, straight and simple. But what are the results?

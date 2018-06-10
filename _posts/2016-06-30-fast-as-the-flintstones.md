@@ -17,20 +17,31 @@ of with respect to security.
 How does velocity work?
 It is a simple as this:
 
-```java
- 1 VelocityEngine vengine = new VelocityEngine();
- 2 vengine.setProperty("file.resource.loader.path","templates");
- 3 vengine.init();
- 4  
- 5 Context context = new VelocityContext();
- 6 context.add("order",order);
- 7 context.add("contact",contact);
- 8
- 9 Template template = vengine.getTemplate("inputfile.vm");
-10 StringWriter writer = new StringWriter();
-11 template.merge(context,writer);
-12 String result = writer.toString();
-```
+
+`1 VelocityEngine vengine = new VelocityEngine();`
+
+`2 vengine.setProperty("file.resource.loader.path","templates");`
+
+`3 vengine.init();`
+
+`4`
+
+`5 Context context = new VelocityContext();`
+
+`6 context.add("order",order);`
+
+`7 context.add("contact",contact);`
+
+`8`
+
+`9 Template template = vengine.getTemplate("inputfile.vm");`
+
+`10 StringWriter writer = new StringWriter();`
+
+`11 template.merge(context,writer);`
+
+`12 String result = writer.toString();`
+
 
 Create a template file  - we call it "inputfile.vm" for simplicity.
 This file includes the basic text as well as placeholders, which will
@@ -52,29 +63,31 @@ capable of escaping XML, JAVA, JavaScript, Velocity itself - which I will
 cover later and of course SQL. Its usage is simple. Within the template file
 you need to surround our place holders as follows:
 
-```java
-$esc.html($place_holder)
-```
+
+`$esc.html($place_holder)`
+
 
 And put the following into the tools configuration (tools.xml) of your 
 velocity engine:
 
-```xml
-1  <tools>
-2    <toolbox scope="application">
-3      <tool class="org.apache.velocity.tools.generic.EscapeTool"/>
-4    </toolbox>
-5  </tools>
-```
+
+`1  <tools>`
+
+`2    <toolbox scope="application">`
+
+`3      <tool class="org.apache.velocity.tools.generic.EscapeTool"/>`
+
+`4    </toolbox>`
+
+`5  </tools>`
+
 
 Escaping velocity is also a very important point. If you can inject 
 velocity code as parameter value it is basically game over.
 Besides setting up endless loops and causing a denial of service you 
 may as well start to instantiate Java classes like this:
 	
-```java
-#set ($fileclass = $customer.Class.forName("java.io.File"))
-```	
+`#set ($fileclass = $customer.Class.forName("java.io.File"))`	
 
 Thereby I assumed that $customer is already an object being passed to 
 the template. With a view more steps your up and running all over the 

@@ -36,7 +36,7 @@ To import it open
 
 
 
-	Analyze --> Inspect Code --> Inspection Profile
+`Analyze --> Inspect Code --> Inspection Profile`
 
 
 From there select import from the select box "manage" besides the current

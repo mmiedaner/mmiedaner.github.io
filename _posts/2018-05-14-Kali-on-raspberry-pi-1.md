@@ -28,19 +28,21 @@ You'll find it in the [Kali Download section](https://www.offensive-security.com
 it.
 
 2. Copy it on the SD-Card
-This can be done multiple ways. I prefer the commandline:
-```bash
-dd if=<path to your image file> of=<path to your sd mount point> bs=512k
-```
-And of you go.
+This can be done multiple ways. I prefer the command line: 
+
+	`dd if=<path to your image file> of=<path to your sd mount point> bs=512k`
+
+And done!
 
 # Second Task: Regenerate the server key #
 Since the server key of KALI's PI builds is widely known you need to regenerate it with these commands:
-```bash
-rm /etc/ssh/ssh_host_*
-dpkg-reconfigure openssh-server
-service ssh restart
-```
+
+`rm /etc/ssh/ssh_host_*`
+
+`dpkg-reconfigure openssh-server`
+
+`service ssh restart`
+
 Now you can add aditional users and disable SSH login for root. And that's it for today
 
 Cheers !
