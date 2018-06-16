@@ -18,8 +18,9 @@ scripting to get it up and running. Nothing very complicated so.
 But, before you grep all necessary [scripts](https://github.com/mmiedaner/security/tree/master/ZAP/automation)
 you need to install the python-zap-api client via this command on your 
 build server:
-
-`pip install python-owasp-zap-v2.4`
+```bash
+pip install python-owasp-zap-v2.4
+```
 
 A more detailed howto can be found [here](https://github.com/zaproxy/zaproxy/wiki/ApiPython).
 
@@ -28,7 +29,9 @@ Jenkins Build Plan. Once everything works you can copy the configuration
 into already existing projects. This build should execute a few shell
 commands. The first one is:
 
-`zap.sh -config api.disablekey=true`
+```bash
+zap.sh -config api.disablekey=true
+```
 
 You may as well start ZAP in daemon mode. However, I found that my scripts
 will not work in such case and that the scanner behaves in strange ways.
@@ -39,19 +42,25 @@ hardened environment and your ZAP daemon can not be reached from out side
 your network. To give ZAP to start up fully add the following line to 
 wait 5 seconds:
 
-`sleep 5`
+```bash
+sleep 5
+```
 
 And finally start a script to scan your apps. The script I am using
 can be found [here](https://github.com/mmiedaner/security/tree/master/ZAP/automation) including the configuration file it depends on. You
 can simply start it:
 
-`python pythonZapRemote.py --config config.json`
+```bash
+python pythonZapRemote.py --config config.json
+```
 
 This tells the script to load the configuration file "config.json" from
 the same directory that it is in. You can as well specify a list of URLs
 separated by spaces as follows:
 
-`python pythonZapRemote.py --urls URL1 URL2`
+```bash
+python pythonZapRemote.py --urls URL1 URL2
+```
 
 But what does the script do? After creating ZAP session it opens the URL
 provided and spiders it. Depending on your configuration it performs an
@@ -60,7 +69,9 @@ this point you are free to move the report to a place where your
 developers can access it to improve their code - or simply mail to
 them via the unix command line. Do not forget to stop ZAP:
 
-`java -jar zap-api-2.4-v7.jar stop zapaddr=127.0.0.1 zapport=8080`
+```bash
+java -jar zap-api-2.4-v7.jar stop zapaddr=127.0.0.1 zapport=8080
+```
 
 Ok, so far so good. Now I would like to discuss the various options of
 the configuration file.
@@ -134,7 +145,6 @@ It is in no way comparable to a real pentest.
 
 You have suggestions for features, improvements or found a bug? 
 Let me know - I would love to extend the script.
-
 
 
 Cheers!

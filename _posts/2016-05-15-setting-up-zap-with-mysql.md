@@ -39,36 +39,43 @@ with this user by issuing the following command:
 
 or simply - if you are in the sudoers-group:
 
-`sudo mysql`
+```bash
+sudo mysql
+```
 
 Now you need to connect to the right database by:
 
-`mysql> connect mysql`
+```bash
+mysql> connect mysql
+```
 
 To add a new user issue this command and set his password as you like:
-
-`CREATE USER 'zap'@'localhost' IDENTIFIED BY '<zaps password>';`
+```SQL
+CREATE USER 'zap'@'localhost' IDENTIFIED BY '<zaps password>';
+```
 
 Once the user exists, we need a database for this user:
-
-`CREATE DATABASE zaproxy;`
+```SQL
+CREATE DATABASE zaproxy;
+```
 
 OK - so far so good. The zap user now needs to be able to access the 
 zaproxy database. You do this by granting him all rights on the database:
 
-`GRANT ALL PRIVILEGES ON zaproxy.* to 'zap'@'localhost';`
-
-`FLUSH PRIVILEGES;`
-
-`quit;`
+```SQL
+GRANT ALL PRIVILEGES ON zaproxy.* to 'zap'@'localhost';
+FLUSH PRIVILEGES;
+quit;
+```
 
 With the "flush privileges" command you fixate the rights of the user and
 with the "quit" command you return to your command shell. Now reconnect
 to the zaproxy database as zap by:
 
-`mysql -u zap --password=<zap's password>`
-
-`connect zaproxy;`
+```bash
+mysql -u zap --password=<zap's password>
+connect zaproxy;
+```
 
 At /user/share/zaproxy/db you will find to files:
 
@@ -81,37 +88,40 @@ finally ZAP needs to know that it is supposed to use the MySQL database.
 Therefore uncomment and edit the following lines from the config file 
 "db.properties" within the same directory to like this:
 
-`db.class	= org.zaproxy.zap.db.sql.SqlDatabase`
-
-`db.type		= mysql`
-
-`db.driver	= com.mysql.jdbc.Driver`
-
-`db.url		= jdbc:mysql://localhost/zaproxy`
-
-`db.user		= zap`
-
-`db.password	= <zap's password'>`
+```bash
+db.class	= org.zaproxy.zap.db.sql.SqlDatabase
+db.type		= mysql
+db.driver	= com.mysql.jdbc.Driver
+db.url		= jdbc:mysql://localhost/zaproxy
+db.user		= zap
+db.password	= <zap's password>
+```
 
 By the way - make sure that you commented out the lines above - those
 to disable the use of HSQL databases. Before you can start using ZAP with
 this configuration you should ensure that the MySQL driver for java
 exists either via
-	
-`apt-get install libmysql-java`
-
+```bash	
+apt-get install libmysql-java
+```
 and copying it from this place afterwards:
 
-`/usr/share/maven-repo/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar`
+```bash
+/usr/share/maven-repo/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar
+```
 
 Or download the appropriate jar from ORACLE and place it at:
 
-`/usr/share/zaproxy/lib`
+```bash
+/usr/share/zaproxy/lib
+```
 
 Now the moment arrives to start zap and watch out for errors....
 Do not forget to start zap as this to enforce the use of the MySQL database:
 
-`zap.sh -experimentalDb`
+```bash
+zap.sh -experimentalDb
+```
 
 At a first glance it looks wrong, but is only one "-" in front of
 "experimentalDb". And that is all the magic - enjoy and let me know

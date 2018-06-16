@@ -30,9 +30,9 @@ visitors to enforce TLS on any communication with you? Besides this header
 also protects your visitors against SSL-Man-In-The-Middle attacks.
 It should look as follows:
 
-
-`Strict-Transport-Security: max-age=31536000; includeSubDomains`
-
+```html
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+```
 
 It has been specified within [RFC 6797](https://tools.ietf.org/html/rfc6797). 
 You may find additional information from OWASP
@@ -49,9 +49,9 @@ scripts or load additional content. You may as well control if your side
 should be embeddable within an iFrame. So it offers a protection against 
 clickjacking as well. In this case it should look like this:
 
-
-`Content-Security-Policy: frame-ancestors 'none'`
-
+```html
+Content-Security-Policy: frame-ancestors 'none'
+```
 
 Besides frame-ancestors you should as well take a look at these options:
 
@@ -81,17 +81,13 @@ b) still valid independent of its expiry date and the certificate authority
 
 An example for this header looks as follows:
 
-
-`Public-Key-Pins:`
-
-`pin-sha256="d6qzRu9zOECb90Uez27xWltNsj0e1Md7GkYYkVoZWmM=";`
-
-`pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g=";`
-
-`pin-sha256="LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=";`
-
-`max-age=10000; includeSubDomains; report-uri="my-domain.com"`
-
+```html
+Public-Key-Pins:
+pin-sha256="d6qzRu9zOECb90Uez27xWltNsj0e1Md7GkYYkVoZWmM=";
+pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g=";
+pin-sha256="LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=";
+max-age=10000; includeSubDomains; report-uri="my-domain.com"
+```
 
 Like the content-security-policy header you can specify a report-uri to 
 receive information about browsers encountering problems while validating
@@ -111,9 +107,9 @@ The x-frame-options allows you to ensure that your page cannot be
 embedded into an iFrame and thereby stops clickjacking attacks. The default
 setting for this is:
 
-
-`X-Frame-Options: SAMEORIGIN` 
-
+```html
+X-Frame-Options: SAMEORIGIN 
+```
 
 Clearly, x-frame-options are not the only header to avoid clickjacking and
 it is not implemented in all browsers. You should combine it with the 
@@ -126,9 +122,9 @@ X-XSS-Protection
 Modern browsers do bring their own xss-protection. Clearly, it is far from perfect - but
 still better than nothing. So, I recommend you set this header as well:
 
-
-`X-XSS-Protection: 1; mode=block`
-
+```html
+X-XSS-Protection: 1; mode=block
+```
 
 For more information on anti-xss mechanisms see the OWASP [cheat-sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet).
 
@@ -141,9 +137,9 @@ interesting results - e.g. "code" gets executed that is actually not meant to be
 Anyhow please do always set these two headers correctly. For the X-Content-Type-Options
 you should use:
 
-
-`X-Content-Type-Options: nosniff`
-
+```html
+X-Content-Type-Options: nosniff
+```
 
 This will stop any browser from trying to guess the content-type of a response. Thereby
 you will reduce the effectiveness of drive-by-downloads as well as unwanted code execution.

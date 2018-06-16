@@ -50,8 +50,6 @@ stay away from the kindle version - get the paper back. It feels more
 natural reading it this way.
 
 Unfortunately there is no embedded link available for this book, so I do
-link directly: 
-[https://www.amazon.com/Sketchnote-Handbook-illustrated-visual-taking/dp/0321857895/ref=sr_1_1?ie=UTF8&qid=1496068480&sr=8-1&keywords=sketch+notes](https://www.amazon.com/Sketchnote-Handbook-illustrated-visual-taking/dp/0321857895/ref=sr_1_1?ie=UTF8&qid=1496068480&sr=8-1&keywords=sketch+notes)
+[link directly](https://www.amazon.com/Sketchnote-Handbook-illustrated-visual-taking/dp/0321857895/ref=sr_1_1?ie=UTF8&qid=1496068480&sr=8-1&keywords=sketch+notes):
 
-
-Cheers
+Cheers !

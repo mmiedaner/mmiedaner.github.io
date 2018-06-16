@@ -25,7 +25,7 @@ remember abstraction to the rescue for any problem :) or you make your
 patch management lightning fast and set up various additional security 
 measures.  Either way you need to lift some weight. Of course their are 
 ways to reduce your attack surface by taking additional measures like 
-namespacing, eliminating the use of "root" as much as possible and so on.  
+name spacing, eliminating the use of "root" as much as possible and so on.  
 
 
 Docker Hub or any other registry for containers is a very convenient and
@@ -60,7 +60,7 @@ cause a denial of service. Yeah, life can be fun. . .
 
 As in the case of virtual machines you finally faces guest to host escapes.
 With containerization this is still a problem. On the one hand due to the
-shared resources on the other hand possible due to namespacing and mapping
+shared resources on the other hand possible due to name spacing and mapping
 user like root inside the container to root on the host. This would result
 in a direct compromise once a root user could exploit for example a kernel
 bug and escape the container. She would be root on the host directly. In

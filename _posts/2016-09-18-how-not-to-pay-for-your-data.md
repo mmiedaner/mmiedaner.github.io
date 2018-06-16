@@ -26,9 +26,9 @@ possible. Why? Most updates do not only improve the functionality of your
 software, they also fix vulnerabilities. And what is malware based on?
 Exactly! Vulns in your software, which get exploited to gain more privileges, spread through the network, to replicate and finally to encrypt all
 your data. The more up to date your software is, the less likely it is that
-current malware will be able to work, because the vulnerabilites are 
+current malware will be able to work, because the vulnerabilities are 
 patched. You may argue that there are still zero days. OK - compared to
-known vulnerabilties it is hard to write software that relies on zero
+known vulnerabilities it is hard to write software that relies on zero
 days and thereby expensive. Now, a normal attacker is in the game for 
 money. Investing upfront in a zero days and then spreading the ransom
 ware is not his business model - that is something for state sponsored 
@@ -66,7 +66,7 @@ are successful because some clicked on a malicious link or attachment.
 So keep your eyes open think twice and then decide what to do.
 [Brian Krebs post](http://krebsonsecurity.com/2016/09/ransomware-getting-more-targeted-expensive/#more-36337) provides you with even more
 steps how to secure your environment like for example reduce privileges to
-an absolute minimum or application whitelisting. I do not contratdict his
+an absolute minimum or application whitelisting. I do not contradict his
 advices. They are all valid and things you should do. However, keep in mind
 that most of them help to prevent damage after you clicked on a malicious
 link or attachment. The click is the real problem and this should be

@@ -58,7 +58,7 @@ employee handing over data - for whatever reason.
 
 
 Awareness is hard to measure, however I do suggest 
-that you gamemify this approach. For example: 
+that you gamify this approach. For example: 
 Social Engineering / Phishing. Set up a mailing list 
 that employees can send suspicious mails to. 
 Fill this list with life - do not underestimate 

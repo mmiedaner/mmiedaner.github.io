@@ -34,10 +34,9 @@ you automating the points explained below. You can get it
 [here](https://github.com/mmiedaner/security/tree/master/code_review). 
 To import it open
 
-
-
-`Analyze --> Inspect Code --> Inspection Profile`
-
+```
+Analyze --> Inspect Code --> Inspection Profile
+```
 
 From there select import from the select box "manage" besides the current
 inspection profile and import the XML downloaded from the link above.

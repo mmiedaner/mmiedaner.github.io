@@ -10,7 +10,5 @@ filename: SYRACOM Whitepaper ASDL.pdf
 Viele Unternehmen prüfen die Sicherheit ihrer Produkte erst am Ende der Entwicklung und unter hohem Zeitdruck. 
 Dies geht zu Lasten der Gründlichkeit und der Produktqualität. Es bleibt kaum Zeit, die von den Sicherheitsexperten 
 beanstandeten Mängel zu beheben sowie etwaige Änderungen des Designs oder der Konstruktion nachzuprüfen. Der 
-resultierende Projektverzug und die damit einhergehenden  nanziellen Verluste lassen sich vermeiden, 
+resultierende Projektverzug und die damit einhergehenden finanziellen Verluste lassen sich vermeiden, 
 wenn man die Sicherheit von Anfang an bedenkt.
-
-
