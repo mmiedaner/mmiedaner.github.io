@@ -35,7 +35,9 @@ by catting the file called debian.cnf. Here you will find the username
 and the password for the maintenance user. Now connect to the database
 with this user by issuing the following command:
 
-`mysql -u debian-sys-maint --password=<the password from the file>`
+```bash
+mysql -u debian-sys-maint --password=<the password from the file>
+```
 
 or simply - if you are in the sudoers-group:
 
@@ -50,19 +52,19 @@ mysql> connect mysql
 ```
 
 To add a new user issue this command and set his password as you like:
-```SQL
+```sql
 CREATE USER 'zap'@'localhost' IDENTIFIED BY '<zaps password>';
 ```
 
 Once the user exists, we need a database for this user:
-```SQL
+```sql
 CREATE DATABASE zaproxy;
 ```
 
 OK - so far so good. The zap user now needs to be able to access the 
 zaproxy database. You do this by granting him all rights on the database:
 
-```SQL
+```sql
 GRANT ALL PRIVILEGES ON zaproxy.* to 'zap'@'localhost';
 FLUSH PRIVILEGES;
 quit;
