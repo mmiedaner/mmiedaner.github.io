@@ -27,16 +27,33 @@ To do this follow these steps:
 You'll find it in the [Kali Download section](https://www.offensive-security.com/kali-linux-arm-images/). Once you have it unzip
 it.
 
-2. Copy it on the SD-Card
-This can be done multiple ways. I prefer the command line: 
+
+2. Finding the SD-Card
+Before you unmount the SD-Card you need to find out which one it is. This can be done via the mount command:
 ```bash
-dd if=<path to your image file> of=<path to your sd mount point> bs=512k
+mount
+/dev/disk2s1 on /Volumes/boot (. . . . .
+```
+
+3. Unmount the SD-Card
+To umount the SD-Card can be done with the diskutil command.
+```bash
+diskutil unmountDisk /dev/disk2s1
+```
+
+
+4. Copy it on the SD-Card
+This can be done multiple ways. I prefer the command line: 
+
+```bash
+dd if=<path to your image file> of=<path to your sd mount point> bs=512k; sync;
 ```
 
 And done!
 
 # Second Task: Regenerate the server key #
 Since the server key of KALI's PI builds is widely known you need to regenerate it with these commands:
+
 ```bash
 rm /etc/ssh/ssh_host_*
 dpkg-reconfigure openssh-server
