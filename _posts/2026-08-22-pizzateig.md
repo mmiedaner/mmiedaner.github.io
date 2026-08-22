@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "Pizzateig"
+title: "Pizzateig Grundrezept"
 date: "2026-08-22 10:47:11 +0200"
 category: cooking
 link:
 filename:
 thumbnail:
 ---
-Pizza Teig Grundrezept
 
 Pizza gibt es allen nur erdenklichen und ungewöhnlichen Arten. Mit Ananas, ohne, mit Meersfrüchten, ohne Tomatensoße, vegan, vegaterisch und so weiter und so fort. Dieses Rezept ist die Ausgangsbasis für viele viele Kochabenteuer und künstlerische Dekorationen
 
-##Zutaten:
+## Zutaten:
 * 1 Würfel Hefe oder 7g Trockenhefe
 * 1 TL Zucker
 * 180 ml lauwarmes Wasser
@@ -19,7 +18,7 @@ Pizza gibt es allen nur erdenklichen und ungewöhnlichen Arten. Mit Ananas, ohne
 * 1 TL Salz
 * 2 EL Olivenöl
 
-##Zubereitung:
+## Zubereitung:
 1. Die Hefe in das lauwarme Wasser geben und stehen lassen.
 2. Mehl und Salz in einer Rührschüssel vermengen.
 3. Die Hefe-Wasser Mischung und das Olivenöl hinzugeben.
@@ -30,7 +29,7 @@ Der Teig kann auch über Nacht ziehen, dafür mit Frischhaltefolie die Schüssel
 7. Jede Portion dünn ausrollen und belegen.
 8. Bei 220°C Ober-/Unterhitze für 10 Minuten backen
 
-##Zahlen, Daten, Fakten
+## Zahlen, Daten, Fakten
 - Zubereitungszeit: 10 Minuten
 - Ruhe-/Ziehzeit: mind. 30 Minuten
 - Backzeit: 10 bis 15 Minuten
