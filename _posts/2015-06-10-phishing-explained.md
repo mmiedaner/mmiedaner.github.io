@@ -2,7 +2,7 @@
 layout: post
 title: "Phishing Explained"
 date: "2015-06-10 20:42:01 +0200"
-category: blog
+category: security
 ---
 
 Phishing is a social engineering attack targeting everyone. 

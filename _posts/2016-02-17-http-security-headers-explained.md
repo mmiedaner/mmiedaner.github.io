@@ -2,7 +2,7 @@
 layout: post
 title: "Http Security Headers explained"
 date: "2016-02-17 17:07:01 +0100"
-category: blog
+category: security 
 link:
 filename:
 thumbnail:

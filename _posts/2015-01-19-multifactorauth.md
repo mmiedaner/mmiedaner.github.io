@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A few thoughts on Multi Factor Authentication (MFA)
-category: blog
+category: security
 ---
 
 

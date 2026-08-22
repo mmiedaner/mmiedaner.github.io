@@ -2,7 +2,7 @@
 layout: post
 title: "Measure how secure you develop"
 date: "2016-01-29 08:10:38 +0100"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

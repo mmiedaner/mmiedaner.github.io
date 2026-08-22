@@ -2,7 +2,7 @@
 layout: post
 title: "OAuth Implementation Tips"
 date: "2016-02-04 20:35:14 +0100"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

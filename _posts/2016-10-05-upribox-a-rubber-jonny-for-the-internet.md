@@ -2,7 +2,7 @@
 layout: post
 title: "UpriBox - A Rubber Jonny For The Internet"
 date: "2016-10-05 16:26:11 +0200"
-category: blog
+category: security 
 link:
 filename:
 thumbnail:

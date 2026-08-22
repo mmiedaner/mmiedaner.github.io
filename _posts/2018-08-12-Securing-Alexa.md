@@ -2,7 +2,7 @@
 layout: post
 title: "Securing Alexa"
 date: "2018-08-12 08:41:50 +0200"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

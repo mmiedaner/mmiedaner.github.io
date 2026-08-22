@@ -2,7 +2,7 @@
 layout: post
 title: "Reviewing Code For Fun And Profit"
 date: "2016-05-29 11:02:54 +0200"
-category: blog
+category: security 
 link:
 filename:
 thumbnail:

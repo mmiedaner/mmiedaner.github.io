@@ -2,7 +2,7 @@
 layout: post
 title: "IDEA - A poor mans fortify"
 date: "2016-06-16 17:24:39 +0200"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

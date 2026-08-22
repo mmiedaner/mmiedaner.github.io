@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A (-gile) Secure Development Life Cycle 1
-category: blog
+category: security
 ---
 
 What is a Secure Development Life Cycle?

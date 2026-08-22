@@ -2,7 +2,7 @@
 layout: post
 title: "Increasing security by preparing for failure"
 date: "2015-12-01 18:05:56 +0100"
-category: blog 
+category: security 
 ---
 
 

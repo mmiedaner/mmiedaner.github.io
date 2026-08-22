@@ -2,7 +2,7 @@
 layout: post
 title: "Setting up ZAP with MySQL"
 date: "2016-05-15 20:09:23 +0100"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

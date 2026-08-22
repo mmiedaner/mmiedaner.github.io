@@ -2,7 +2,7 @@
 layout: post
 title: "To Store Or Not To Store Secrets In Your Docker Container"
 date: "2017-02-15 09:17:23 +0100"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

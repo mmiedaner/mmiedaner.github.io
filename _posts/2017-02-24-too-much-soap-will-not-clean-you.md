@@ -2,7 +2,7 @@
 layout: post
 title: "Too much SOAP will not clean you"
 date: "2017-02-24 17:51:42 +0100"
-category: blog 
+category: security 
 link:
 filename:
 thumbnail:

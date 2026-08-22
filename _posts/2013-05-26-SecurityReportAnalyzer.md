@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Security Report Analyzer
-category: blog
+category: security
 ---
 Many projects suffer from the lack of tooling to 
 keep track of findings from penetration tests. 

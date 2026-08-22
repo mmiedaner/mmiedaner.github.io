@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Secure Data storage on iOS-Devices with SQLCipher
-category: blog
+category: security
 ---
 
 Secure data storage on mobile devices 

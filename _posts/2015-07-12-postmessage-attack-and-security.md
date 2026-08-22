@@ -2,7 +2,7 @@
 layout: post
 title: "PostMessage Attack and Security"
 date: "2015-07-12 16:59:53 +0200"
-category: blog
+category: security
 ---
 
 Based on the [research paper](https://www.cs.utexas.edu/~shmat/shmat_ndss13postman.pdf) by Sooel Son and Vitaly Shmatikov from University 

@@ -2,7 +2,7 @@
 layout: post
 title: "CVSS and Patching"
 date: "2015-09-19 17:18:48 +0200"
-category: blog 
+category: security 
 ---
 
 CVSS as vulnerability rating score has been around for some time now. 

@@ -2,7 +2,7 @@
 layout: post
 title: "WAFalyzer"
 date: "2020-05-15 10:47:11 +0200"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

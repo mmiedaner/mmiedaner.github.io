@@ -2,7 +2,7 @@
 layout: post
 title: "Feeding The Phish - Part III"
 date: "2016-12-16 16:35:22 +0100"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

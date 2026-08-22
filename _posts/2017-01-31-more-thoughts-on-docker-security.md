@@ -2,7 +2,7 @@
 layout: post
 title: "More Thoughts On Docker Security"
 date: "2017-01-31 19:28:26 +0100"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

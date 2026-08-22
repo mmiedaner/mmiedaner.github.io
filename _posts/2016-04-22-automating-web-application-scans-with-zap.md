@@ -2,7 +2,7 @@
 layout: post
 title: "Automating Web Application Scans with ZAP"
 date: "2016-04-22 17:09:30 +0200"
-category: blog
+category: securtiy
 link:
 filename:
 thumbnail:

@@ -2,7 +2,7 @@
 layout: post
 title: "Context specific OTPs"
 date: "2016-01-04 13:28:49 +0100"
-category: blog
+category: security
 ---
 One time passwords are mainly based on two triggers - either 
 time or a counter of events. Combined with a pre-shared secret 

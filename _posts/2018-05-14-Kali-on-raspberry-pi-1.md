@@ -2,7 +2,7 @@
 layout: post
 title: "Kali on Raspberry PI - Part 1"
 date: "2018-05-14 08:41:50 +0200"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

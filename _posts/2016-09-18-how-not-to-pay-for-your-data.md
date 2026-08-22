@@ -2,7 +2,7 @@
 layout: post
 title: "How Not To Pay For Your Data"
 date: "2016-09-18 10:28:50 +0200"
-category: blog
+category: security 
 link:
 filename:
 thumbnail:

@@ -2,7 +2,7 @@
 layout: post
 title: "Code Stylometry is not about styling - it is about you!"
 date: "2016-03-17 18:21:34 +0100"
-category: blog
+category: security 
 link:
 filename:
 thumbnail:

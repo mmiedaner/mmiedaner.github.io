@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Security Metrics
-category: blog
+category: security
 ---
 
 How do you measure security? What are indicators which 

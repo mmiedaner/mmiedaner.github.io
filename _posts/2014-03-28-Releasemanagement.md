@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Relasemanagement and Security
-category: blog
+category: security 
 ---
 
 How do you handle security related issues 

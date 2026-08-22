@@ -2,7 +2,7 @@
 layout: post
 title: "Unsecure High Risk Users"
 date: "2017-05-02 13:12:43 +0200"
-category: blog
+category: security
 link:
 filename:
 thumbnail:

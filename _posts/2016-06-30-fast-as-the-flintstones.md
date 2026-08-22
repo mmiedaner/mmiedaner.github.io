@@ -2,7 +2,7 @@
 layout: post
 title: "Fast As The Flintstones"
 date: "2016-06-30 10:18:29 +0200"
-category: blog 
+category: security 
 link:
 filename:
 thumbnail:

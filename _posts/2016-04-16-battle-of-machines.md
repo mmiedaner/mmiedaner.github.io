@@ -2,7 +2,7 @@
 layout: post
 title: "Battle Of Machines"
 date: "2016-04-16 15:49:14 +0200"
-category: blog 
+category: security 
 link:
 filename:
 thumbnail:

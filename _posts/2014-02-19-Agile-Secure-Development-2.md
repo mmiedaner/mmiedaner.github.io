@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A(-gile) Secure Development Life Cycle 2
-category: blog
+category: security
 ---
 
 The previous post I argued why a 
